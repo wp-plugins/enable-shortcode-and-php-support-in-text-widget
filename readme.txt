@@ -16,6 +16,8 @@ By default, the Text widget only support text and HTML. With this plugin activat
 
 To execute PHP in text Widget, ensure the PHP code to be executed is encapsulated in between PHP opening and closing tag `<?php ... ?>`
 
+Visit my blog [http://tech4sky.com/](http://tech4sky.com/) for the more information.
+
 == Installation ==
 
 = Step 1 =

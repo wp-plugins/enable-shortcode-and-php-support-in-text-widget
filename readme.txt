@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: widget, text widget, shortcode, PHP, settings, post, page, content
 Requires at least: 3.5
 Tested up to: 3.9.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,7 +25,7 @@ Visit my blog [http://tech4sky.com/](http://tech4sky.com/) for the more informat
 Plugin installation is quite easy.
 
 1. Download zip file and Extract it 
-2. Upload `shortcode-php-text-widget` folder to your /wp-content/plugins/ folder.
+2. Upload `enable-shortcode-and-php-support-in-text-widget` folder to your /wp-content/plugins/ folder.
 2. Go to the 'Plugins' page in the menu and activate the plugin.
 
 Alternatively, search and install the plugin from your WordPres dashboard.
@@ -49,6 +49,8 @@ Visit my blog [http://tech4sky.com/](http://tech4sky.com/) for the more informat
  
 == Changelog ==
 
+= 1.1 =
+* Bug fixes
 
 = 1.0 =
 * Initial release.

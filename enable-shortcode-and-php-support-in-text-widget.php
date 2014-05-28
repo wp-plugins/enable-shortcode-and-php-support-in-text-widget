@@ -4,8 +4,20 @@
  Plugin URI: http://tech4sky.com
  Description: Enable shortcode support and execute PHP in WordPress's Text Widget
  Author: Collizo4sky
- Author URI: http://wrox.com
+ Version: 1.1
+ Author URI: http://tech4sky.com
  */
+
+
+// Initialize setting options on activation
+register_activation_hook( __FILE__, 'espw_activate_default_values' );
+function espw_activate_default_values() {
+$espw_options = array(
+'shortcode' => '',
+'php' => '',
+);
+update_option( 'espw_option', $espw_options );
+}
 
 
 add_action('admin_menu', 'espw_plugin_menu');

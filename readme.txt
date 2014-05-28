@@ -37,8 +37,9 @@ Alternatively, search and install the plugin from your WordPres dashboard.
 
 == Screenshots ==
 
-1. Text Widget settings
-2. Output of executed PHP and shortcode
+1. Plugin settings
+2. Text Widget settings
+3. Output of executed PHP and shortcode
 
 == Frequently Asked Questions ==
 

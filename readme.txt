@@ -16,7 +16,7 @@ By default, the Text widget only support text and HTML. With this plugin activat
 
 To execute PHP in text Widget, ensure the PHP code to be executed is encapsulated in between PHP opening and closing tag `<?php ... ?>`
 
-More information and documentation at [http://tech4sky.com/shortcode-php-support-wordpress-text-widget/](http://tech4sky.com/shortcode-php-support-wordpress-text-widget/) for the more information.
+More information and documentation at [http://w3guy.com/shortcode-php-support-wordpress-text-widget/](http://w3guy.com/shortcode-php-support-wordpress-text-widget/) for the more information.
 
 == Installation ==
 
@@ -46,7 +46,7 @@ Alternatively, search and install the plugin from your WordPres dashboard.
 = How does the plugin work? =
 
 The plugin is quite easy to use. Go to the settings page and check the options to activate.
-Visit my blog [http://tech4sky.com/](http://tech4sky.com/) for the more information.
+Visit my blog [w3guy.com](http://w3guy.com/shortcode-php-support-wordpress-text-widget/) for the more information.
  
 == Changelog ==
 

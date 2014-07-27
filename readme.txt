@@ -50,6 +50,9 @@ Visit my blog [w3guy.com](http://w3guy.com/shortcode-php-support-wordpress-text-
  
 == Changelog ==
 
+= 1.2 =
+* Translation ready
+
 = 1.1 =
 * Bug fixes
 

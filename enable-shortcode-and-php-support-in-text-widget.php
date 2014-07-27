@@ -1,12 +1,20 @@
 <?php
 /*
  Plugin Name: Enable Shortcode and PHP in Text widget
- Plugin URI: http://tech4sky.com
+ Plugin URI: http://w3guy.com/shortcode-php-support-wordpress-text-widget/
  Description: Enable shortcode support and execute PHP in WordPress's Text Widget
- Author: Collizo4sky
- Version: 1.1
- Author URI: http://tech4sky.com
+ Author: Agbonghama Collins
+ Version: 1.2
+ Author URI: http://w3guy.com
+ Text Domain: espw-plugin
+ Domain Path: /languages/
  */
+
+
+function espw_load_plugin_textdomain() {
+	load_plugin_textdomain( 'espw-plugin', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
+}
+add_action( 'plugins_loaded', 'espw_load_plugin_textdomain' );
 
 
 // Initialize setting options on activation
@@ -25,18 +33,19 @@ add_action('admin_menu', 'espw_plugin_menu');
 // Adding Submenu to settings
 function espw_plugin_menu() {
 	add_options_page(
-	'Shortcode & PHP in Text Widget',
-	'Shortcode & PHP in Text Widget',
+	__('Shortcode & PHP in Text Widget', 'espw-plugin'),
+	__("Shortcode & PHP in Text Widget", "espw-plugin"),
 	'manage_options',
 	'espw-short-code-php-widget',
 	'espw_plugin_settings'
 	);
 }
 
+
 function espw_plugin_settings() {
 	echo '<div class="wrap">';
 	screen_icon();
-	echo '<h2>Enable Shortcode and PHP support in Text widget</h2>';
+	echo '<h2>'; _e('Enable Shortcode and PHP support in Text widget', 'espw-plugin' ); echo '</h2>';
 	echo '<form action="options.php" method="post">';
 	do_settings_sections('espw-short-code-php-widget');
 	settings_fields('espw_settings_group');
@@ -83,7 +92,7 @@ function espw_plugin_settings() {
 		</tr>
 	</table>
 	<br /><br /><br />
-	<h2>Built with <3 and coffee by <strong><a href="http://tech4sky.com" target="_blank">Collizo4sky</a></strong></h2>
+	<h2><?php _e('Built with <3 and coffee by', 'espw-plugin');?> <strong><a href="http://w3guy.com" target="_blank">Agbonghama Collins</a></strong></h2>
 	
 	<?php
 
@@ -100,7 +109,7 @@ function espw_plugin_settings() {
 
 	add_settings_field(
 	'shortcode',
-	'<label for="shortcode">Enable Shortcode Support</label>',
+	'<label for="shortcode">' . __('Enable Shortcode Support', 'espw-plugin') .'</label>',
 	'espw_shortcode_field',
 	'espw-short-code-php-widget',
 	'espw_settings_section'
@@ -108,7 +117,7 @@ function espw_plugin_settings() {
 
 	add_settings_field(
 	'php',
-	'<label for="php">Enable PHP Suport</label>',
+	'<label for="php">' . __('Enable PHP Suport', 'espw-plugin') . '</label>',
 	'espw_php_field',
 	'espw-short-code-php-widget',
 	'espw_settings_section'

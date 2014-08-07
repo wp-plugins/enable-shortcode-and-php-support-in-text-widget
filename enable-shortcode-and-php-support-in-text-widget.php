@@ -4,7 +4,7 @@
  Plugin URI: http://w3guy.com/shortcode-php-support-wordpress-text-widget/
  Description: Enable shortcode support and execute PHP in WordPress's Text Widget
  Author: Agbonghama Collins
- Version: 1.2
+ Version: 1.2.1
  Author URI: http://w3guy.com
  Text Domain: espw-plugin
  Domain Path: /languages/

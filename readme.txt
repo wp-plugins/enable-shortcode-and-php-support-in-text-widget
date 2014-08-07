@@ -3,8 +3,8 @@ Contributors: collizo4sky
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HAAAMDMXMSP58
 Tags: widget, text widget, shortcode, PHP, settings, post, page, content
 Requires at least: 3.5
-Tested up to: 3.9.1
-Stable tag: 1.2
+Tested up to: 3.9.2
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,10 @@ By default, the Text widget only support text and HTML. With this plugin activat
 To execute PHP in text Widget, ensure the PHP code to be executed is encapsulated in between PHP opening and closing tag `<?php ... ?>`
 
 More information and documentation at [http://w3guy.com/shortcode-php-support-wordpress-text-widget/](http://w3guy.com/shortcode-php-support-wordpress-text-widget/) for the more information.
+
+= Translators =
+
+* Spanish (es_ES) - Andrew Kurtis [andrewk@webhostinghub.com]
 
 == Installation ==
 
@@ -49,6 +53,9 @@ The plugin is quite easy to use. Go to the settings page and check the options t
 Visit my blog [w3guy.com](http://w3guy.com/shortcode-php-support-wordpress-text-widget/) for the more information.
  
 == Changelog ==
+
+= 1.2.1 =
+* Spanish translation added
 
 = 1.2 =
 * Translation ready

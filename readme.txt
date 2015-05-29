@@ -57,7 +57,7 @@ Visit my blog [w3guy.com](http://w3guy.com/shortcode-php-support-wordpress-text-
  
 == Changelog ==
 
-= 1.2.1 =
+= 1.2.2 =
 * Minor bug fix
 
 = 1.2.1 =
